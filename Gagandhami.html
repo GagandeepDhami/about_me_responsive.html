@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- personal website -->
+<!-- gagandeep dhami -->
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+
+    <style>
+    .scrollable-div {
+        overflow: auto;
+        height: 500px;
+        }
+    
+    .scrollable-div2 {
+        overflow: auto;
+        height: 500px;
+        }
+    
+    body{
+        background-color: #f4f4f4;
+    }
+
+    @font-face{
+        font-family: 'SuperC';
+        src: url('SuperCuriousK.otf')
+    }
+
+    @font-face{
+        font-family: 'Helvetica';
+        src: url('HelveticaNeue.ttc')
+    }
+
+    li, a, button {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 50px;
+        font-size: 16px;
+        color: #ecbddb;
+        text-decoration: none;
+    }
+
+    header {
+        padding: 10px;
+        background-color:#f4f4f4;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        
+    }
+
+    .logo {
+        cursor: pointer;
+    }
+
+    .nav-links {
+        list-style: none;
+    }
+
+    .nav-links li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+
+    .nav-links li a {
+        transition: all 0.3s ease 0s;
+    }
+
+    .nav-links li a:hover {
+        color: #970f51;
+    }
+
+    button {
+        padding: 9px 25px;
+        background-color: rgb(236, 218, 229);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3 ease 0s;
+    }
+
+    button:hover {
+        background-color: pink;
+    }
+/* first plane */
+.container-1stplane {
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .img-paper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .img-myport {
+            position: absolute;
+            top: 30%;
+            left: 19%;
+            width: 60%;
+        }
+
+        .centered-text {
+            font-size: 80px;
+            font-family: 'SuperC';
+            color: #383638d9;
+            text-align: center;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .top-text {
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #383638c8;
+            text-align: center;
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+/* secound plane */
+        .container-2stplane {
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .img-self {                 /* self image doodle */
+            position: absolute;
+            top: 270px;
+            left: 5%;
+            width: 25%;
+        }
+
+        h1{                         /* 'Gagandeep Dhami' title */
+            margin-top: -30px;
+            font-size: 50px;
+            font-family: 'SuperC';
+            color: #383638;
+            text-align: left;
+        }
+
+        h2{                         /* links */
+            margin-top: -250px;
+            font-size: 15px;
+            font-family:'Courier New', Courier, monospace;
+            color: #383638;
+            text-align: left;
+            font-weight: lighter;
+        }
+        h3{ /* professional summary */
+            margin-top: -0px;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #ecbddb;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        h4{ /* education text */
+            margin-top: -50px;
+            font-size: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #383638;
+            text-align: left;
+            font-weight: lighter;
+        }
+
+        h5{ /* work exp title */
+            margin-top: -250px;
+            margin-left: -70px;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #ecbddb;
+            text-align: left;
+            font-weight: bold;
+        }
+        h6{ /* work exp text */
+            margin-top: -55px;
+            margin-left: 13px;
+            font-size: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #383638;
+            text-align: left;
+            font-weight: lighter;
+        }
+/*skill bar*/
+        h7{
+            text-align: center;
+        }
+        h8{
+            margin: 5px;
+        }
+        .skill{
+            width: 500px;
+            margin-top: 0px;
+            margin-left: 80px;
+            /*margin: 10px auto;*/
+            color: #ffffff00;
+            padding: 20px;
+            /*box-shadow: 0 14px 28px rgb(236, 218, 229), 0 10px 10px rgba(0,0,0,0.22);*/
+        }
+        .img-bar1{
+            position: absolute;
+            top: 1187px;
+            left: 95px;
+            width: 35%;
+        }
+        .img-bar2{
+            position: absolute;
+            top: 1351px;
+            left: 95px;
+            width: 35%;
+        }
+        .img-bar3{
+            position: absolute;
+            top: 1519px;
+            left: 95px;
+            width: 35%;
+        }
+        .img-bar4{
+            position: absolute;
+            top: 1688px;
+            left: 95px;
+            width: 35%;
+        }
+        .skill li{
+            margin: 0px 0;
+            padding: 50px;
+        }
+        .bar{
+            background: #353b48;
+            margin: 50px;
+            display:block;
+            height: 20px;
+            border: 1px solid rgba(255, 255, 255, 0);    /* defines the border line thin/thickness */
+            border-radius: 5px;                            /* defines the boxes border edge curve    */
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        .bar:hover{
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+        .bar span{
+            height: 20px;
+            float: left;
+            background: linear-gradient(135deg, rgb(249, 228, 240)0%, rgb(236, 189, 219) 100%);
+        }
+        .CPP{
+            width: 60%;
+            animation: CPP 3s;
+        }
+        .Python{
+            width: 40%;
+            animation: Python 3s;
+        }
+        .HTML{
+            width: 60%;
+            animation: HTML 3s;
+        }
+        .CSS{
+            width: 40%;
+            animation: CSS 3s;
+        }
+        @keyframes CPP {
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 60%;
+            }
+        }
+        @keyframes Python {
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 40%;
+            }
+        }
+        @keyframes HTML {
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 60%;
+            }
+        }
+        @keyframes CSS {
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 40%;
+            }
+        }
+        .img-sum{
+            position: absolute;
+            top: 1900px;
+            left: 350px;
+            width: 65%;
+        }
+        h9 {
+        position: absolute;
+        top: 2570px;
+        left: 1090px;
+        transform: translate(-50%, -50%);
+        font-size: 190px;
+        font-family: 'SuperC';
+        color: #383638;
+        text-align: left;
+        }
+/*third plane*/
+        body{
+            background-color: #f4f4f4;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="gd.png" alt="logo" style="width: 6%;">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">about</a></li>
+                <li><a href="#">projects</a></li>
+                <li><a href="#">services</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contact</button></a>
+    </header>
+
+    <div class="container-1stplane">
+        <img class="img-paper"  src="paperback.jpeg"  alt="background paper image">
+        <img class="img-myport" src="myportfolio.png" alt="my portfolio text png" >
+        <!-- <div class="centered-text">gagandeep dhami</div>
+        <div class="top-text">INTRODUCING</div> -->
+    </div>
+
+    <div class="container-2stplane">
+        <img class="img-self"  src="me.png"  alt="girl on computer image">
+        <pre>
+            <h1>
+                                Gagandeep
+                                Dhami
+            </h1>
+            <h2>
+                gdhami@kent.edu
+                330-998-9050<a href="https://www.linkedin.com/in/gagan-dhami-536978244/" target="_blank">
+               linkedin</a>
+            </h2>
+            <h3>
+                                                PROFESSIONAL SUMMARY
+            </h3>
+            <h4>
+                                                                Hello,
+
+                                                                I am a Senior Computer Science major with a minor in Drawing at Kent State 
+                                                                University. Through both my academic pursuits and internships, I've cultivated 
+                                                                a diverse skill set that encompasses a wide array of programming languages 
+                                                                and technologies.
+                                                                
+                                                                My proficiency extends across languages such as C++, C, C#, Python, and web 
+                                                                development in HTML and CSS. Additionally, in front-end development, frameworks 
+                                                                such as React and Bootstrap to create engaging user experiences.
+                                                                
+                                                                Beyond traditional software development, I've delved into the exciting realm of 
+                                                                game development, gaining hands-on experience with industry tools such as Unity 
+                                                                and the Unreal Engine. My studies are also extended with the intricacies of 
+                                                                computer graphics through platforms like OpenGL and SFML.
+                
+                                                                In the realm of cloud engineering, I've navigated the complexities of Microsoft 
+                                                                Azure, gaining invaluable insights into building scalable and resilient 
+                                                                cloud-based solutions.
+                
+                                                                With my diverse skill sets and a passion for innovation, I am eager to channel 
+                                                                my knowledge and practical experience into meaningful contributions to the field 
+                                                                of computer science.
+
+            </h4>
+            <h3>
+
+                                                EDUCATION
+            </h3>
+            <h4>
+                                                                
+                                                                <b>Bachelor of Science</b>       Expected Graduation: December 2024
+                                                                
+                                                                Kent State University                             Kent, Ohio
+                                                                Major: Computer Science | Minor:Drawing            GPA: 3.29
+                                                                
+            </h4>
+            <h5>
+                WORK EXPERINECE
+            </h5>
+            <h6>
+            <b>Amerigo Insurance Agency</b>, Cleveland, Ohio
+            Web Development Intern
+            December - March 2024
+
+
+            <b>Cleveland Clinic</b>, Cleveland, Ohio
+            Cloud Engineering Intern
+            May - August 2023
+            </h6>
+            <div class="skill">
+                <h7>my skill</h7>
+
+                    <img class="img-bar1" src="c++_bar.png" alt="background paper image">
+                    <span class="bar"><span class="CPP"></span></span>
+                    <img class="img-bar2" src="python_bar.png" alt="background paper image">
+                    <span class="bar"><span class="Python"></span></span>
+                    <img class="img-bar3" src="html_bar.png" alt="background paper image">
+                    <span class="bar"><span class="HTML"></span></span>
+                    <img class="img-bar4" src="css_bar.png" alt="background paper image">
+                    <span class="bar"><span class="CSS"></span></span>
+                
+            </div>
+        </pre>
+    </div>
+    <div class = "intotal-container">
+        <img class = "img-sum" src = "intotal.png" alt = "bracket image">
+        <h9>SKILLS!</h9>
+    </div>
+    <div class = "slideshow">
+        <div class="wrapper">
+            <img src="xavibear.jpg">
+        </div>
+        
+    </div>
+    <div class="scrollable-div2">
+
+    </div>
+
+</body>
+
+</html>
